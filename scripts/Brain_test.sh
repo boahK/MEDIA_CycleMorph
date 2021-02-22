@@ -1,0 +1,16 @@
+python test.py             \
+--dataroot ./data/sampleData \
+--labelroot ./data \
+--gpu_ids 0            \
+--name CycleMorph_Brain \
+--model cycleMorph  \
+--which_model_net registUnet \
+--batchSize 1             \
+--inputSize 160,192,224 \
+--fineSize 160,192,224 \
+--input_nc 2                \
+--encoder_nc 16,32,32,32,32 \
+--decoder_nc 32,32,32,8,8,3 \
+--which_epoch 30          \
+--checkpoints_dir ./checkpoints/MEDIA_CycleMorph_Brain/ \
+--results_dir ./results/MEDIA_CycleMorph_Brain

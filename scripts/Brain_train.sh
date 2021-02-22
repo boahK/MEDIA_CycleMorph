@@ -1,0 +1,26 @@
+python3 train.py             \
+--dataroot /hard2/data/Dataset_OASIS3_MRI_brain_mat_affine_train/ \
+--labelroot ./data \
+--gpu_ids 0 \
+--name CycleMorph_Brain  \
+--model cycleMorph    \
+--which_model_net registUnet \
+--init_type normal \
+--batchSize 1 \
+--lr 2e-4   \
+--lr_policy step \
+--lr_decay_iters 50 \
+--inputSize 160,192,224 \
+--fineSize 160,192,224  \
+--input_nc 2 \
+--encoder_nc 16,32,32,32,32 \
+--decoder_nc 32,32,32,8,8,3 \
+--lambda_A 0.1 \
+--lambda_B 0.5 \
+--lambda_R 1.0 \
+--niter 30 \
+--display_step 5  \
+--plot_step 5             \
+--save_epoch_freq 10        \
+--display_port 8099 \
+--checkpoints_dir ./checkpoints/CycleMorph_Brain/
