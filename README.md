@@ -2,7 +2,8 @@
 
 Paper
 ===============
-* CycleMorph: Cycle consistent unsupervised deformable image registration (Boah Kim et al.)
+* CycleMorph: Cycle consistent unsupervised deformable image registration (arXiv.org, Boah Kim et al.)
+* Unsupervised Deformable Image Registration Using Cycle-Consistent CNN (MICCAI 2019, Boah Kim et al.)
 
 Implementation
 ===============
