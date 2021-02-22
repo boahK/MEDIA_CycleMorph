@@ -1,5 +1,5 @@
 python3 train.py             \
---dataroot /hard2/data/Dataset_OASIS3_MRI_brain_mat_affine_train/ \
+--dataroot ./data/sampleData/ \
 --labelroot ./data \
 --gpu_ids 0 \
 --name CycleMorph_Brain  \
