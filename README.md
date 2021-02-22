@@ -8,8 +8,10 @@ Implementation
 ===============
 A PyTorch implementation of deep-learning-based registration.
 We implemented this code based on voxelMorph and original cycleGAN code.
+
 [https://github.com/voxelmorph/voxelmorph]
 (*Thanks for voxelMorph.)
+
 [https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix] 
 (*Thanks for Jun-Yan Zhu and Taesung Park, and Tongzhou Wang.)
 
