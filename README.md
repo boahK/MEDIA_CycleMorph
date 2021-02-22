@@ -7,12 +7,8 @@ Paper
 Implementation
 ===============
 A PyTorch implementation of deep-learning-based registration.
-We implemented this code based on voxelMorph and original cycleGAN code.
-
-[https://github.com/voxelmorph/voxelmorph]
+We implemented this code based on [voxelMorph](https://github.com/voxelmorph/voxelmorph) and [original cycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) code.
 (*Thanks for voxelMorph.)
-
-[https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix] 
 (*Thanks for Jun-Yan Zhu and Taesung Park, and Tongzhou Wang.)
 
 * Requirements
@@ -20,7 +16,18 @@ We implemented this code based on voxelMorph and original cycleGAN code.
   * Python 3.6
   * PyTorch 1.4.0
 
-Main
+Data
 ===============
-* Training: train.py which is handled by scripts/Brain_train.sh
+To download the atlas brain and a sample data, visit the [Data](https://drive.google.com/drive/folders/1S7aT_u8YVAcDdR_2Giw2--mGztygH4bd?usp=sharing).
+The data should be in folder ./data.
+
+Training
+===============
+* train.py which is handled by scripts/Brain_train.sh
+* You can run the code by running ./scripts/Brain_train.sh
 * A code for CycleMorph is in models/cycleMorph_model.py.
+
+Testing
+===============
+* test.py which is handled by scripts/Brain_test.sh
+* You can run the code by running ./scripts/Brain_test.sh
