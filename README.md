@@ -1,4 +1,4 @@
-# MEDIA_CycleMorph
+# CycleMorph
 
 Paper
 ===============
