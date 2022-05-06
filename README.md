@@ -1,8 +1,9 @@
 # CycleMorph
+This is an official repository of CycleMorph.
 
 Paper
 ===============
-* CycleMorph: Cycle consistent unsupervised deformable image registration (arXiv.org, Boah Kim et al.)
+* CycleMorph: Cycle consistent unsupervised deformable image registration (Medical Image Analysis, Boah Kim et al.)
 * Unsupervised Deformable Image Registration Using Cycle-Consistent CNN (MICCAI 2019, Boah Kim et al.)
 
 Implementation
@@ -32,3 +33,28 @@ Testing
 ===============
 * test.py which is handled by scripts/Brain_test.sh
 * You can run the code by running ./scripts/Brain_test.sh
+
+Citations
+===============
+```
+@article{kim2021cyclemorph,
+  title={CycleMorph: cycle consistent unsupervised deformable image registration},
+  author={Kim, Boah and Kim, Dong Hwan and Park, Seong Ho and Kim, Jieun and Lee, June-Goo and Ye, Jong Chul},
+  journal={Medical Image Analysis},
+  volume={71},
+  pages={102036},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@inproceedings{kim2019unsupervised,
+  title={Unsupervised deformable image registration using cycle-consistent cnn},
+  author={Kim, Boah and Kim, Jieun and Lee, June-Goo and Kim, Dong Hwan and Park, Seong Ho and Ye, Jong Chul},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={166--174},
+  year={2019},
+  organization={Springer}
+}
+
+```
+
