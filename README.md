@@ -3,8 +3,8 @@ This is an official repository of CycleMorph.
 
 Paper
 ===============
-* CycleMorph: Cycle consistent unsupervised deformable image registration (Medical Image Analysis, Boah Kim et al.)
-* Unsupervised Deformable Image Registration Using Cycle-Consistent CNN (MICCAI 2019, Boah Kim et al.)
+* CycleMorph: Cycle consistent unsupervised deformable image registration (Medical Image Analysis, Boah Kim et al.) [[paper](https://www.sciencedirect.com/science/article/pii/S1361841521000827)]
+* Unsupervised Deformable Image Registration Using Cycle-Consistent CNN (MICCAI 2019, Boah Kim et al.)[[paper](https://link.springer.com/chapter/10.1007/978-3-030-32226-7_19)]
 
 Implementation
 ===============
